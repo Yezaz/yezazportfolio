@@ -1,0 +1,439 @@
+body{
+    background-color: black;
+    margin-bottom: 1000px;
+    /*background-image: url('bc.jpeg');*/
+}
+.navi {
+    background-image: url('header-background image.jpg');
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    position: fixed;
+    top: 0; /* You can adjust the top, left, right, or bottom properties based on your desired fixed position */
+    left: 0;
+    width: 100%; /* Ensure the fixed element spans the entire width of the viewport */
+    /* Add any other styles you need */
+}
+
+
+.github-image{
+    height: 30px;
+    margin-left: 2px;
+}
+.linkedin-image{
+    height: 30px;
+    
+}
+.mail-image{
+    height: 30px;
+}
+.phone-image{
+    height: 40px;
+}
+.navigaton-bar p{
+    color: aliceblue;
+}
+.h1-text{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+
+}
+.p1-text{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.yezaz-image{
+    height: 250px;
+    align-items: center;
+    border-radius: 2000px;
+}
+.first-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-div p{
+    color: white;
+}
+.hero-devices{
+    max-width: 860px;
+}
+.second-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.my-explanation{
+    text-align: center;
+    background-color: rgb(193, 13, 49);
+    border:transparent;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transition: 1s;
+}
+.my-explanation h1{
+    color: white;
+    margin-top: 30px;
+}
+.my-explanation p{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.education h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.education1{
+    display:flex;
+    flex-direction: row;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.schooling-image{
+    height: 50px;
+}
+.schooling {
+    border: 2px solid white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: ;
+}
+.education1 p{
+    color: white;
+    background-color: gray;
+
+}
+.education{
+    margin-bottom: 30px;
+}
+.skills{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-evenly;
+    row-gap: 30px;
+
+}
+.skills-gap{
+    background-color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    border-radius: 20px;
+    padding-left: 50px;
+    margin-bottom: 30px;
+    
+}
+.ski{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.total-skills{
+    margin-top: 30px;
+    border: 2px solid rgb(224, 219, 219);
+    border-radius: 30px;
+}
+.certifications p{
+    color: white;
+}
+.navigaton-bar button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    background-color: lavender;
+}
+.navigaton-bar button:hover{
+    background-color: teal ;
+    cursor: pointer;
+}
+.my-explanation p{
+    transition-delay: 40s;
+}
+.certifications p{
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.certifications{
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
+.certifications a:hover {
+    color: red;
+    cursor: pointer;
+}
+.languages {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.languages h2{
+    color: white;
+    margin-bottom: 0px;
+    margin-left: 10px;
+   
+}
+.languages h1{
+    background-color: aqua;
+    display: inline-block;
+}
+.languages p{
+    font-style: italic;
+    color: white;
+    margin-left: 10px;
+    margin-top: -2px;
+    font-size: 12px;
+}
+.interests{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+body {
+    background-color: black;
+    margin-bottom: 1000px;
+}
+
+/* ... (other styles remain unchanged) ... */
+
+.h1-text {
+    color: #ffcc00; /* Golden yellow */
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.my-explanation h1 {
+    color: #ff6666; /* Coral pink */
+    margin-top: 30px;
+}
+
+.education h1 {
+    color: #66b3ff; /* Sky blue */
+    margin-bottom: 10px;
+}
+
+.ski {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.total-skills {
+    margin-top: 30px;
+    border: 2px solid rgb(224, 219, 219);
+    border-radius: 30px;
+}
+
+.certifications p {
+    color: #ff9900; /* Vivid orange */
+}
+
+.languages h2 {
+    color: #99ff99; /* Mint green */
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+
+.languages h1 {
+    background-color: #9933ff; /* Deep purple */
+    display: inline-block;
+}
+
+.languages p {
+    font-style: italic;
+    color: #ff99cc; /* Soft pink */
+    margin-left: 10px;
+    margin-top: -2px;
+    font-size: 12px;
+}
+
+.interests {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+body {
+    background-color: black;
+    margin-bottom: 1000px;
+}
+
+/* ... (other styles remain unchanged) ... */
+
+/*@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.h1-text,
+.p1-text,
+.yezaz-image {
+    animation: fadeInUp 1s ease-in-out 0.5s;
+}
+
+.second-div,
+.my-explanation,
+.education,
+.education1,
+.total-skills,
+.certifications,
+.languages,
+.interests {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+.second-div {
+    animation-delay: 0.5s;
+}
+
+.my-explanation {
+    animation-delay: 1s;
+}
+
+.education {
+    animation-delay: 1.5s;
+}
+
+.education1 {
+    animation-delay: 2s;
+}
+
+.total-skills {
+    animation-delay: 2.5s;
+}
+
+.certifications {
+    animation-delay: 3s;
+}
+
+.languages {
+    animation-delay: 3.5s;
+}
+
+.interests {
+    animation-delay: 4s;
+}
+/* ... (existing styles remain unchanged) ... */
+
+.total-skills {
+    margin-top: 30px;
+    border: 2px solid rgb(224, 219, 219);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.ski {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ffcc00; /* Golden yellow */
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skills-gap {
+    background-color: #333; /* Dark gray */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.skills-text {
+    color: white;
+    font-size: 16px;
+}
+/* ... (existing styles remain unchanged) ... */
+
+.skills-gap {
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
+    background-color: #333; /* Dark gray */
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.skills-text {
+    color: white;
+    font-size: 16px;
+}
+/*.interests button{
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.interests .b1  {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.interests .b2  {
+    display: flex;
+    justify-content: space-evenly;
+    vertical-align: bottom;
+}*/
+.interests {
+    text-align: center; /* Center-align the content within the .interests container */
+}
+
+.interests h1 {
+    color: #ffcc00;
+}
+
+.interests button {
+    color: white;
+    padding: 20px 10px; /* Combine padding properties into a shorthand for better readability */
+    background-color: black;
+    border-radius: 20px;
+    margin: 20px; /* Combine margin properties into a shorthand for better readability */
+    cursor: pointer; /* Add cursor pointer for better user experience */
+    border: none; /* Remove default button border */
+    outline: none; /* Remove default button outline */
+    font-family: 'Roboto', sans-serif;
+}
+
+.interests .b1, .interests .b2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Optional: Add hover effect for buttons */
+.interests button:hover {
+    background-color: #333;
+}
+
